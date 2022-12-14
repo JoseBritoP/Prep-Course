@@ -1,0 +1,69 @@
+¿Qué es una variable?
+
+Una variable es un método que nos permite almacenar la información de algo para utilizar después.
+
+Hay tres tipos de variables:
+
+- var : la forma generica de referirse a uno y es una que se puede redefinir,es decir, se puede cambiar la información por otra.
+
+  var autos = 0km;
+
+- let : es similar a var pero se comporta de manera distinta.
+
+  let precio = 5000USD;
+
+- const: es una variable que no se podrá cambiar o actualizar su valor, const viene de constante.
+
+  const marca = Ford;
+
+
+Strings
+
+Los "strings" son bloques o cadenas de texto, cualquier texto que esté entre comillas es una cadena o un string.
+
+
+Funciones (argumentos, return)
+
+Una función es simplemente una posición de código, lo agarramos y lo usamos para volverla a utilizar.
+
+Las funciones comienzan con su palabra clave, function nombreDeLaFuncion(valores de la función){
+  código de nuestra función
+}
+
+Return es para que nos devuelva un valor, para que el bloque del código se convierta en un tipo de dato, para que no ahga algo simplemente.
+
+function saludar(){
+  alert("Hola");
+  return "La función es ejecutó correctamente"
+}
+
+let saludo = saludar();
+
+Declaraciones if
+
+La declaración if nos permite validar algo, ejecutar un bucle o un fragmento del código si es que la condición se cumple.
+
+if(num1 < 5){
+
+  return true;
+} else {
+  return false;
+}
+
+En este caso, estamos diciendo que si num es menor que 5, que devuelva true;
+Caso contrario(else), que devuelva false;
+
+Valores booleanos (true, false)
+
+Los valores booleanos tienen dos opciones, activar o desactivar, 0 o 1, verdadero o falso.
+En JavaScript usamos booleanos para significar verdadero o falso.
+
+Ejemplo:
+
+let num1 = 2;
+
+let num2 = 3;
+
+let resultado = (2+3) === 5;
+
+true
